@@ -1,8 +1,8 @@
 [
      {
              "name" : "片库",
-                 "host" : "https://www.pianku.tv/s/",
-                     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+                 "host" : "http://www.wolongzy.net/search.html?searchword=",
+                     "searchUrl" : "/search.html?searchword=&wd={SearchWord}&submit=search",
                          "charType" : "utf-8",
                              "lineBreak" : false,
                                  "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
