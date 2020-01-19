@@ -1,7 +1,7 @@
 [
      {
              "name" : "片库",
-                 "host" : "http://www.kk2w.cc",
+                 "host" : "http://1.goxgecd.cn",
                      "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
                          "charType" : "utf-8",
                              "lineBreak" : false,
