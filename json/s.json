@@ -1,4 +1,14 @@
 [
+     {
+             "name" : "片库",
+                 "host" : "https://www.pianku.tv/",
+                     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+                         "charType" : "utf-8",
+                             "lineBreak" : false,
+                                 "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+                                     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+     },
+     
       {
               "name" : "ok资源",
                   "host" : "http://www.okzyw.com",
