@@ -4,7 +4,7 @@
                  "host" : "http://1.goxgecd.cn",
                      "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
                          "charType" : "utf-8",
-                             "lineBreak" : false,
+                             "lineBreak" : true,
                                  "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
                                      "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
      },
