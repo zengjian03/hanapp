@@ -1,6 +1,6 @@
 [
       {
-              "name" : "ok",
+              "name" : "ok资源",
                   "host" : "http://www.okzyw.com",
                       "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
                           "charType" : "utf-8",
