@@ -2,7 +2,7 @@
      {
              "name" : "永久",
                  "host" : "http://www.yongjiuzy1.com",
-                     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+                     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=searc",
                          "charType" : "utf-8",
                              "lineBreak" : false,
                                  "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
