@@ -38,7 +38,7 @@
           },
             {
                     "name" : "123",
-                        "host" : "http://www.yongjiuzy1.com",
+                        "host" : "http://www.123ku.com",
                             "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
                                 "charType" : "utf-8",
                                     "lineBreak" : false,
