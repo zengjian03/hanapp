@@ -108,13 +108,5 @@
                                                 "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a>\n</td>\n<td align=\"center\"><font color=\"#000\">.*</font>\\n</td>\n<td align=\"center\"><a href=\".*\" target=\"_blank\">(.*)</a>",
                                                     "itemRegex" : "<a>(.*)\\$(.*\\.m3u8)</a>"
                     }
-]
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
+
 ]
