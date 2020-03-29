@@ -1,5 +1,5 @@
 <?php
-header("Content-Type:text/html;charset=GBK");
+header("Content-Type:text/html;charset=utf-8");
 CCTV-01,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/ysp/2000210103.m3u8
 CCTV-02,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000203603.m3u8
 CCTV-03,http://live-wcloud-cdn.ysp.cctv.cn/tlivecloud-cdn.ysp.cctv.cn/001/2000203803.m3u8
