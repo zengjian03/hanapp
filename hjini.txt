@@ -1,4 +1,4 @@
-<bb>1.0</bb>�汾��
-<gxdz>���µ�ַ</gxdz>���µ�ַ
-<gxsm>����˵��</gxdz>����˵��
+<bb>2.0</bb>版本号
+<gxdz>更新地址</gxdz>更新地址
+<gxsm>更新说明</gxdz>更新说明
 
