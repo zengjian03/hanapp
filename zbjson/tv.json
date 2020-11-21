@@ -62,35 +62,35 @@
     },
     {
       "name": "CCTV-8电视剧频道",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv8.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8"
     },
     {
       "name": "CCTV-9纪录频道",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv9.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv9hd.m3u8"
     },
     {
       "name": "CCTV-10科教",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv10.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv10hd.m3u8"
     },
     {
       "name": "CCTV-11戏曲",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv11.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv11hd.m3u8"
     },
     {
       "name": "CCTV-12社会与法",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv12.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv12hd.m3u8"
     },
     {
       "name": "CCTV-13新闻",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv13.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv13hd.m3u8"
     },
     {
       "name": "CCTV-14少儿",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv14.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv14hd.m3u8"
     },
     {
       "name": "CCTV-15音乐",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv15.m3u8"
+      "url": "http://ivi.bupt.edu.cn/hls/cctv15hd.m3u8"
     }
   ],
   "卫视": [
