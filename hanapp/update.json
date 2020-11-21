@@ -1,6 +1,6 @@
 {
       "update": "Yes",
-        "new_version": "1.8.3",
+        "new_version": "0.8.3",
           "version_code":2,
             "apk_file_url": "https://developer49.baidupan.com/112121bb/2020/06/23/ab4dbbb06f5a129f99fcd87c9ff76d66.apk?st=36YsfA-JSjOOzbW8fJdbQA&e=1605967639&b=ArULhFPCVrZXulCFVuECjwnUXl1Us1bmBOJbvlDHAI4JvgC9BLVQvVakU4MKdAJnCC1dag_c_c&fi=25208344&pid=58-247-201-189&up=",
               "update_log": "1，添加删除信用卡接口。\r\n2，添加vip认证。\r\n3，区分自定义消费，一个小时不限制。\r\n4，添加放弃任务接口，小时内不生成。\r\n5，消费任务手动生成。",
