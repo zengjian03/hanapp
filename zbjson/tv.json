@@ -17,36 +17,33 @@
   "CCTV": [
     {
       "name": "我的频道",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
-      "url2": "http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8"
+      "url2": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
+      "url": "http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8"
     },
     {
       "name": "CCTV-1综合HD",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
-      "url2": "http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8"
+      "url2": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
+      "url": "http://112.50.243.8/PLTV/88888888/224/3221225922/1.m3u8"
     },
     {
       "name": "CCTV-2财经HD",
-      "url": "http://125.210.152.18:9090/live/CCTV2HD_H265.m3u8",
-      "url2": "http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8",
-      "url3": "http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8",
-      "url4": "http://ivi.bupt.edu.cn/hls/cctv2.m3u8"
+      "url2": "http://125.210.152.18:9090/live/CCTV2HD_H265.m3u8",
+      "url1": ",http://223.110.241.130:6610/gitv/live1/G_CCTV-3-HQ/.m3u8"
     },
     {
       "name": "CCTV-3综艺HD",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8",
-      "url2": "http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8",
-      "url3": "http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8"
+      "url2": "http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8",
+      "url": "http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8"
     },
     {
       "name": "CCTV-4中文国际",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8",
-      "url2": "http://112.50.243.8/PLTV/88888888/224/3221225923/1.m3u8",
-      "url3": "http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8"
+      "url2": "http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8",
+      "url": "http://111.13.111.242/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226314/1.m3u8"
     },
     {
       "name": "CCTV-5体育",
-      "url": "http://ivi.bupt.edu.cn/hls/cctv5phd.m3u8"
+      "url": "http://223.110.241.130:6610/gitv/live1/G_CCTV-5-HQ/G_CCTV-5-HQ/",
+      "url2": "http://112.17.40.145/PLTV/88888888/224/3221226687/index.m3u8"
     },
     {
       "name": "CCTV-5+赛事",
