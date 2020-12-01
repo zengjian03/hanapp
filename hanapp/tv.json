@@ -5,7 +5,7 @@
             "url": "http://112.17.40.13/PLTV/88888888/224/3221226758/1.m3u8"
         },
         {
-            "name": "CCTV-老故事 SD",
+            "name": "CCTV-老故事 4K",
             "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221227043/index.m3u8"
         },
         {
@@ -39,6 +39,10 @@
         {
             "name": "CCTV5 HD(浙江华数联通)",
             "url": "http://125.210.152.18:9090/live/CCTV5HD_H265.m3u8"
+        },
+        {
+            "name": "广东综艺4K",
+            "url": "http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=79&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1"
         },
         {
             "name": "CCTV4 SD(杭州移动)",
@@ -850,19 +854,16 @@
         },
         {
             "name": "上海哈哈炫动 4M 576",
-            "url": "http://39.134.157.205/PLTV/88888888/224/3221225615/index.m3u8"
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226745/index.m3u8",
+            "url2": "http://39.134.157.205/PLTV/88888888/224/3221225615/index.m3u8"
         },
         {
-            "name": "上海哈哈炫动 576",
-            "url": "http://39.134.157.205/PLTV/88888888/224/3221225546/index.m3u8"
+            "name": "优漫卡通",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226172/index.m3u8"
         },
         {
             "name": "北京卡酷少儿 4M 576",
             "url": "http://39.134.157.205/PLTV/88888888/224/3221225606/index.m3u8"
-        },
-        {
-            "name": "北京卡酷少儿 576",
-            "url": "http://39.134.157.205/PLTV/88888888/224/3221225544/index.m3u8"
         },
         {
             "name": "广东嘉佳卡通 4M 576",
@@ -882,7 +883,8 @@
         },
         {
             "name": "湖南金鹰卡通 576",
-            "url": "http://39.134.157.205/PLTV/88888888/224/3221225547/index.m3u8"
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226190/index.m3u8",
+            "url2": "http://39.134.157.205/PLTV/88888888/224/3221225547/index.m3u8"
         }
     ],
     "其他": [
@@ -2474,152 +2476,182 @@
     "卫视": [
         {
             "name": "湖南卫视高清",
-            "url": "http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/2300000/mnf.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226553/index.m3u8",
+            "url2": "http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/2300000/mnf.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/7d4daf1f/"
         },
         {
             "name": "深圳卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/szhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226543/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/szhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/50ca1f4c/"
         },
         {
             "name": "黑龙江卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/hljhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226201/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/hljhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/59736a35/"
         },
         {
             "name": "广东卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/gdhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226408/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/gdhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/cb608c10/"
         },
         {
             "name": "湖北卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/hbtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226197/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/hbtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/526cbae7/"
         },
         {
             "name": "江苏卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/jshd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226414/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/jshd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/69e7e66e/"
         },
         {
             "name": "浙江卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/zjhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226551/index.m3u8",
+            "url2": "http://125.210.152.18:9090/live/ZJWSHD_H265.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/9f005630/"
         },
         {
             "name": "安徽卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/ahhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226185/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/ahhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/06a195fd/"
         },
         {
             "name": "辽宁卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/lnhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226148/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/lnhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/019d9e5e/"
         },
         {
             "name": "重庆卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/cqhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226217/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/cqhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/54cb9087/"
         },
         {
             "name": "东方卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/dfhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226142/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/dfhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/95f40184/"
         },
         {
             "name": "河南卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/hntv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226130/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/hntv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/789d0d22/"
         },
         {
             "name": "山东卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/sdhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226144/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/sdhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/c62d45e9/"
         },
         {
             "name": "吉林卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/jltv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226158/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/jltv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/a3aa4d01/"
         },
         {
             "name": "天津卫视高清",
-            "url": "http://ivi.bupt.edu.cn/hls/tjhd.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226182/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/tjhd.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/b5cb5697/"
         },
         {
             "name": "西藏卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/xztv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226160/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/xztv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/e237763b/"
         },
         {
             "name": "陕西卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/sxtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226177/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/sxtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/6ef94ac4/"
         },
         {
             "name": "山西卫视",
             "url": "http://ivi.bupt.edu.cn/hls/sxrtv.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/sxrtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/d667526e/"
         },
         {
             "name": "贵州卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/gztv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226146/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/gztv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/a136a49d/"
         },
         {
             "name": "广西卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/gxtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226211/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/gxtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/e211ffe8/"
         },
         {
             "name": "四川卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/sctv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226215/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/sctv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/e5b252e4/"
         },
         {
             "name": "青海卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/qhtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226191/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/qhtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/6cf61152/"
         },
         {
             "name": "河北卫视",
             "url": "http://ivi.bupt.edu.cn/hls/hebtv.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/hebtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/25feea76/"
         },
         {
             "name": "云南卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/yntv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226241/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/yntv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/3a19b822/"
         },
         {
             "name": "厦门卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/xmtv.m3u8",
+            "url": "http://183.207.249.11/PLTV/2/224/3221226093/1.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/xmtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/d6253770/"
         },
         {
             "name": "新疆卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/xjtv.m3u8",
+            "url": "http://118.123.60.6:8114/LIVES/Fsv_otype=1&FvSeid=&Fsv_filetype=mull&Fsv_chan_hls_se_idx=009&Provider_id=&Pcontent_id=index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/xjtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/aa83e122/"
         },
         {
             "name": "江西卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/jxtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226128/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/jxtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/61914025/"
         },
         {
             "name": "福建东南卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/dntv.m3u8",
+            "url": "http://ivi.bupt.edu.cn/hls/dntv.m3u8http://112.17.40.140/PLTV/88888888/224/3221226134/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/dntv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/da0c3f96/"
         },
         {
             "name": "甘肃卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/gstv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226187/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/gstv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/fac1ecf6/"
         },
         {
             "name": "内蒙古卫视",
-            "url": "http://ivi.bupt.edu.cn/hls/nmtv.m3u8",
+            "url": "http://112.17.40.140/PLTV/88888888/224/3221226174/index.m3u8",
+            "url2": "http://ivi.bupt.edu.cn/hls/nmtv.m3u8",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/442cb1d6/"
         }
     ],
