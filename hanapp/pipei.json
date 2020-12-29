@@ -6,7 +6,7 @@
     "匹配网站": "http://1090ys1.com",
     "选集地址": "<li><a href=\"(.*\\d*-1-\\d*\\.html)\">(.*?)</a></li>",
     "搜索图片": "<a class=\".*\" href=\"(.*)\" title=\".*\" data-original=\"(.*)\" alt=\".*\"> <span class=\".*\"></span> <span class=\".*\">.*</span><span class=\".*\">.*</span> </a>",
-    "搜索地址": "<h3 class=\"title\"><a href=\"(.*)\" target=\"_blank\">(.*)</a></h3> ",
+    "搜索地址": "<h3 class=\".*\"><a href=\"(.*)\" target=\"_blank\">(.*)</a></h3> ",
     "搜索文本": "http://1090ys1.com/search.html?wd={SearchWord}&submit="
   },
   {
