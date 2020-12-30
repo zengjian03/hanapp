@@ -5,14 +5,14 @@
     "匹配站名": "九零",
     "匹配网站": "http://1090ys1.com",
     "选集地址": "<li ><a href=\"(.*\\d*-1-\\d*\\.html)\">(.*?)</a></li>",
-    "搜索图片": "<a class=\".*\" href=\".*\" title=\".*\" data-original=\"(.*)\" alt=\".*\"> <span class=\".*\"></span> <span class=\".*\">.*</span><span class=\".*\">.*</span> </a>",
+    "搜索图片": "<a class=\"v-thumb stui-vodlist__thumb lazyload\" href=\".*\" title=\".*\" data-original=\"(.*?)\" alt=\".*\">",
     "搜索地址": "<h3 class=\"title\"><a href=\"(.*)\" target=\"_blank\">(.*)</a></h3>",
     "搜索文本": "http://1090ys1.com/search.html?wd={SearchWord}&submit="
   },
   {
     "匹配站名": "南瓜五",
     "匹配网站": "http://www.nangua5.com",
-    "选集地址": "<li><a target=\"_blank\" href=\"(.*\\d*-0-\\d*\\.html)\">(.*)<",
+    "选集地址": "<li><a target=\"_blank\" href=\"(.*\\d*-0-\\d*\\.html)\">(.*?)<",
     "搜索图片": "<a class=\"video-pic loading\" href=\".*\" title=\".*\" data-original=\"(.*)\" style=\"padding-top:150%;\"><span class=\"note text-bg-c\">.*</span></a>",
     "搜索地址": "<a class=\"video-pic loading\" href=\"(.*)\" title=\"(.*)\" data-original=\".*\" style=\"padding-top:150%;\"><span class=\"note text-bg-c\">.*</span></a>",
     "搜索年代": "<span class=\"hidden-xs\">年代：</span>(\\d{4})",
