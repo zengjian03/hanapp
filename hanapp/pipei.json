@@ -10,24 +10,54 @@
     "搜索文本": "http://1090ys1.com/search.html?wd={SearchWord}&submit="
   },
   {
-    "匹配站名":"酷云",
-    "匹配网站":"https://kuyun.tv",
-    "configType":"WebPage",
-    "选集地址":"<a class=\"fed-btns-info fed-rims-info fed-part-eone\" href=\"(.*/\\d*/sid/1/nid/\\d*\\.html)\">(.*)</a>",
-    "搜索图片":"<a class=\"fed-list-pics fed-lazy fed-part-2by3\" href=\".*\" data-original=\"(.*)\"> <span class=\"fed-list-play fed-hide-xs\"></span>",
-    "resultTypeRegex":"<li class=\"fed-col-xs6 fed-col-md3 fed-part-eone\"><span class=\"fed-text-muted\">分类：</span><a href=\".*\" target=\"_blank\">(.*)</a></li>",
-    "搜索地址":"<h1 class=\"fed-part-eone fed-font-xvi\"><a href=\"(.*)\"><span class=\"fed-text-green fed-text-bold\">(.*)</span></a></h1> ",
-    "resultYearRegex":"<span class=\"fed-list-remarks fed-font-xii fed-text-white fed-text-center\">(.*)</span> </a>",
-    "搜索文本":"https://kuyun.tv/vod/search.html?wd={SearchWord}"
-  },
-  {
     "匹配站名": "南瓜五",
     "匹配网站": "http://www.nangua5.com",
-    "选集地址": "<li><a target=\".*\" href=\"(.*)\">(.*?)<.*></li>",
+    "选集地址": "<li><a target=\"_blank\" href=\"(.*\\d*-1-\\d*\\.html)\">(.*?)<",
     "搜索图片": "<a class=\"video-pic loading\" href=\".*\" title=\".*\" data-original=\"(.*)\" style=\"padding-top:150%;\"><span class=\"note text-bg-c\">.*</span></a>",
     "搜索地址": "<a class=\"video-pic loading\" href=\"(.*)\" title=\"(.*)\" data-original=\".*\" style=\"padding-top:150%;\"><span class=\"note text-bg-c\">.*</span></a>",
     "搜索年代": "<span class=\"hidden-xs\">年代：</span>(\\d{4})",
     "搜索文本": "http://www.nangua5.com/search/{SearchWord}/1.html"
-  }
+  },
+  {
+      		"匹配站名":"酷云",
+              		"匹配网址":"https://kuyun.tv",
+                      		"选集地址":"<a class=\"fed-btns-info fed-rims-info fed-part-eone\" (href=\".*/\\d*/sid/1/nid/\\d*\\.html\")>(.*)</a>",
+                              		"搜索图片":"<a class=\"fed-list-pics fed-lazy fed-part-2by3\" href=\".*\" data-original=\"(.*)\"> <span class=\"fed-list-play fed-hide-xs\"></span>",
+                                      		"搜索分类":"<li class=\"fed-col-xs6 fed-col-md3 fed-part-eone\"><span class=\"fed-text-muted\">分类：</span><a href=\".*\" target=\"_blank\">(.*)</a></li>",
+                                              		"搜索地址":"<h1 class=\"fed-part-eone fed-font-xvi\"><a (href=\".*\")><span class=\"fed-text-green fed-text-bold\">(.*)</span></a></h1> ",
+                                                      		"搜索年代":"<span class=\"fed-list-remarks fed-font-xii fed-text-white fed-text-center\">(.*)</span> </a>",
+                                                              		"搜索文本":"https://kuyun.tv/vod/search.html?wd={SearchWord}"
+  },
+  	{
+          		"匹配站名":"蚂蚁",
+                  		"匹配网址":"https://www.anthh.com",
+                          		"选集地址":"<a class=\".*\" (href=\".*/\\d*-1-\\d*\\.html\")>(.*)</a></li>",
+                                  		"搜索图片":"<a class=\"myui-vodlist__thumb img-lg-150 img-md-150 img-sm-150 img-xs-100 lazyload\" href=\".*\" title=\".*\" data-original=\"(.*)\"> <span class=\"play hidden-xs\"></span>",
+                                          		"搜索分类":"<p><span class=\"text-muted\">分类：</span>(.*)<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>",
+                                                  		"搜索地址":"<a class=\"myui-vodlist__thumb img-lg-150 img-md-150 img-sm-150 img-xs-100 lazyload\" (href=\".*\") title=\"(.*)\" data-original=\".*\">",
+                                                          		"搜索年代":"<span class=\"pic-text text-right\">(.*)</span> </a>",
+                                                                  		"搜索文本":"https://www.anthh.com/vodsearch/-------------.html?wd={SearchWord}&submit="
+      },
+      	{
+              		"匹配站名":"我的蓝光",
+                      		"匹配网址":"https://www.jpysvip.net",
+                              		"选集地址":"<li class=\".*\"><a class=\"btn btn-default\" href=\"(.*\\d*-1-\\d*\\.html)\">(.*)</a></li>",
+                                      		"搜索分类":"<p><span class=\"text-muted\">分类：</span>(.*)<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">年份：</span>.*</p >",
+                                              		"搜索地址":"<h4 class=\"title\"><a class=\"searchkey\" (href=\".*\")>(.*)</a></h4>",
+                                                      		"搜索年代":"<p><span class=\"text-muted\">分类：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">年份：</span>(.*)</p >",
+                                                              		"搜索文本":"https://www.jpysvip.net/vodsearch/-------------.html?wd={SearchWord}&submit=",
+                                                                      		"sniff":true
+          },
+          	{
+                  		"匹配站名":"我的腾讯",
+                          		"匹配网址":"https://www.jpysvip.net",
+                                  		"选集地址":"<li class=\".*\"><a class=\"btn btn-default\" href=\"(.*\\d*-2-\\d*\\.html)\">(.*)</a></li>",
+                                          		"搜索分类":"<p><span class=\"text-muted\">分类：</span>(.*)<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">年份：</span>.*</p >",
+                                                  		"搜索地址":"<h4 class=\"title\"><a class=\"searchkey\" (href=\".*\")>(.*)</a></h4>",
+                                                          		"搜索年代":"<p><span class=\"text-muted\">分类：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">地区：</span>.*<span class=\"split-line\"></span><span class=\"text-muted hidden-xs\">年份：</span>(.*)</p >",
+                                                                  		"搜索文本":"https://www.jpysvip.net/vodsearch/-------------.html?wd={SearchWord}&submit=",
+                                                                          		"sniff":true
+              }
+  
 ]
 }
