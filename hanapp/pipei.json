@@ -13,10 +13,10 @@
     "匹配站名":"酷云",
     "匹配网站":"https://kuyun.tv",
     "configType":"WebPage",
-    "选集地址":"<a class=\"fed-btns-info fed-rims-info fed-part-eone\" (href=\".*/\\d*/sid/1/nid/\\d*\\.html\")>(.*)</a>",
+    "选集地址":"<a class=\"fed-btns-info fed-rims-info fed-part-eone\" href=\"(.*/\\d*/sid/1/nid/\\d*\\.html)\">(.*)</a>",
     "搜索图片":"<a class=\"fed-list-pics fed-lazy fed-part-2by3\" href=\".*\" data-original=\"(.*)\"> <span class=\"fed-list-play fed-hide-xs\"></span>",
     "resultTypeRegex":"<li class=\"fed-col-xs6 fed-col-md3 fed-part-eone\"><span class=\"fed-text-muted\">分类：</span><a href=\".*\" target=\"_blank\">(.*)</a></li>",
-    "搜索地址":"<h1 class=\"fed-part-eone fed-font-xvi\"><a (href=\".*\")><span class=\"fed-text-green fed-text-bold\">(.*)</span></a></h1> ",
+    "搜索地址":"<h1 class=\"fed-part-eone fed-font-xvi\"><a href=\"(.*)\"><span class=\"fed-text-green fed-text-bold\">(.*)</span></a></h1> ",
     "resultYearRegex":"<span class=\"fed-list-remarks fed-font-xii fed-text-white fed-text-center\">(.*)</span> </a>",
     "搜索文本":"https://kuyun.tv/vod/search.html?wd={SearchWord}"
   },
