@@ -2655,7 +2655,13 @@
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/442cb1d6/"
         }
     ],
-    "教育": [],
+    "教育": [{
+                " name":"高途",
+                "url":"http://dtx-video.wenzaizhibo.com/d1704b00ee15711e55dcb2890a390b48/5ff41a89/00-x-upload/video/154599094_fb945014aa4bb154496be2d9dd94d0f4_8ziU3tVf.mp4"
+    }
+
+
+    ],
     "海外": [
         {
             "name": "澳大利亚天和电视台",
