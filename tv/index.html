@@ -1,75 +1,64 @@
 <!DOCTYPE html>
-<html><div id="translate-button" style="background-color: white;"><img src="data:image/png;base64,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"></div><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<html>
+<head>
 <meta charset="utf-8">
 <meta name="renderer" content="webkit">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
 <title>测试影视网</title>
-<link rel="stylesheet" type="text/css" href="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/jquery.css">
-<link rel="stylesheet" type="text/css" href="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/common.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 
 <body class="body">
 
 <div class="header">
-	<a class="logo" href="https://movie.tefuir0829.cn/index.html"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/logo.png"></a>
+	<a class="logo" href="index.html"><img src="images/logo.png" /></a>
 	<div class="search">
-		<input type="text" placeholder="输入你想看的" id="search">
+		<input type="text" placeholder="输入你想看的" id="search" />
 		<a id="searchDo">全网搜索</a>
 	</div>
 	<div class="navigate">
-		<a href="https://movie.tefuir0829.cn/index.html" class="current">精选</a>
-		<a href="https://movie.tefuir0829.cn/list/dianshi.html">电视剧</a>
-		<a href="https://movie.tefuir0829.cn/list/dianying.html">电影</a>
-		<a href="https://movie.tefuir0829.cn/list/zongyi.html">综艺</a>
-		<a href="https://movie.tefuir0829.cn/list/dongman.html">动漫</a>
+		<a href="index.html" class="current">精选</a>
+		<a href="list/dianshi.html">电视剧</a>
+		<a href="list/dianying.html">电影</a>
+		<a href="list/zongyi.html">综艺</a>
+		<a href="list/dongman.html">动漫</a>
 	</div>
 </div>
 
 <div class="s-slider">
-	<ul id="bannerList" style="margin-left: -750px; width: 6010px; left: -2250px;"><li><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQ4Ntan7lSWXoMH"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01aa07ad9dc598c418.jpg"><span>《流金岁月》刘诗诗倪妮双美出击</span></a></li>
-		
-	<li class="first"><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZ8QmaXNz7pE4Ez"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01eb3f8e051829da25.jpg"><span>《欢乐喜剧人7》郭德纲宋小宝爆笑回归</span></a></li><li><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQrZqbn7lSWXuNH"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01070d0154d4d175d1.jpg"><span>《江山》罗晋袁姗姗携手扶贫攻坚</span></a></li><li><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FPbprb07lSWXmOH"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t018f97be691fe582e0.jpg"><span>《阳光之下》彭冠英变身虐待狂</span></a></li><li><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZsEob6Jv7JQ3Dz"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01f5fac66dbcadf3ee.jpg"><span>《快乐大本营》章子怡袁弘周一围同台飙戏</span></a></li><li><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FY8ElaXNz7Zg3ET"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01a89c9f9fca021508.jpg"><span>《我就是演员3》小沈阳版张东升遭灭星</span></a></li><li><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQ4Ntan7lSWXoMH"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01aa07ad9dc598c418.jpg"><span>《流金岁月》刘诗诗倪妮双美出击</span></a></li><li class=""><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZ8QmaXNz7pE4Ez"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/t01eb3f8e051829da25.jpg"><span>《欢乐喜剧人7》郭德纲宋小宝爆笑回归</span></a></li></ul>
-	<ol style="right: 18.75px;"><li class=""></li><li class=""></li><li class=""></li><li class="now"></li><li class=""></li><li class=""></li></ol>
+	<ul id="bannerList">
+		<div class="template">
+			<li><a href="{{href}}"><img src="{{pic}}" /><span>{{title}}</span></a></li>
+		</div>
+	</ul>
+	<ol></ol>
 </div>
 
-<div class="loading" id="loadBox" style="display: none;">
+<div class="loading" id="loadBox">
 	<span class="s-loading"><i class="first"></i><i class="second"></i><i class="third"></i></span>
 </div>
 
-<div id="dataBox" style="">
+<div id="dataBox" style="display:none">
 
 	<div class="list">
 
 		<h3 class="title">电视剧</h3>
 
 		<div class="items" id="dianshiList">
-			
-			<a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FPLRvan7lSWXnMn">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_d5876f50f0c9204eaaa0f0558b8de05a.jpg)"><b>更新至19集</b></i>
-					<span>跨过鸭绿江</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FPbZrcH7lSWTpN3">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_4709493f3a404719c47b6c69434c5271.)"><b>43集全</b></i>
-					<span>巡回检察组 TV版</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQ4Ntan7lSWXoMH">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_265f4aed3f994518dde0d318cb4fac60.jpg)"><b>更新至28集</b></i>
-					<span>流金岁月</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQ4dsb07lSWTuOH">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_30103f01b842528122a02f6cc3fc039d.)"><b>38集全</b></i>
-					<span>风声</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FQ4VpbH7lSWTqNn">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_6ff4d5fd19ece513dfbaeb2481e3ddb1.)"><b>更新至44集</b></i>
-					<span>有翡</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=tv%2FPLptaH7lSWTsNH">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_746edf67d52052604506b41db953bbc8.)"><b>39集全</b></i>
-					<span>大江大河2</span>
-				</a><span class="clear"></span>
+			<div class="template">
+				<a href="{{href}}">
+					<i style="background-image:url({{pic}})"><b>{{hint}}</b></i>
+					<span>{{title}}</span>
+				</a>
+			</div>
+			<span class="clear"></span>
 		</div>
 
 		<div class="more">
-			<a href="https://movie.tefuir0829.cn/list/dianshi.html"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_1.png">更多电视剧</a>
-			<a class="switch-button" data-list-type="dianshi"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_2.png">换一批</a>
+			<a href="list/dianshi.html"><img src="images/more_1.png" />更多电视剧</a>
+			<a class="switch-button" data-list-type="dianshi"><img src="images/more_2.png" />换一批</a>
 		</div>
 	</div>
 
@@ -80,31 +69,18 @@
 		<h3 class="title">电影</h3>
 
 		<div class="items" id="dianyingList">
-			
-			<a href="https://movie.tefuir0829.cn/item.html?vid=m%2FhqfiYxH6QXX2Sh">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_01bb358785372b7661e4efb199aa84a9.jpg)"><b>2020</b></i>
-					<span>金刚川</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=m%2FhaLpYxH5S0n3UB">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_3b1fcb7403fa6cbbfdff50fcaf0b35ca.jpg)"><b>2020</b></i>
-					<span>赤狐书生</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=m%2FfqLjYRH6QXb3Sh">
-					<i style="background-image:url(https://p.ssl.qhimg.com/t01072f5a664ead8c2e.png)"><b>2014</b></i>
-					<span>窃听风云3 (2014)</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=m%2FgaPlZxH6QXb2UB">
-					<i style="background-image:url(https://p.ssl.qhimg.com/t015f8cfb1880452fac.jpg)"><b>2020</b></i>
-					<span>狙击手 (2020)</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=m%2FgqfnahH5Rnr5Th">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_0b55ccc2b1f8abb5d1c316a551c01a01.jpg)"><b>2019</b></i>
-					<span>勇敢者游戏2：再战巅峰</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=m%2FgabmZhH6QHL3UR">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_36a52f0777fb235d1f688b287e3e2c9f.jpg)"><b>2020</b></i>
-					<span>八佰</span>
-				</a><span class="clear"></span>
+			<div class="template">
+				<a href="{{href}}">
+					<i style="background-image:url({{pic}})"><b>{{hint}}</b></i>
+					<span>{{title}}</span>
+				</a>
+			</div>
+			<span class="clear"></span>
 		</div>
 
 		<div class="more">
-			<a href="https://movie.tefuir0829.cn/list/dianying.html"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_1.png">更多电影</a>
-			<a class="switch-button" data-list-type="dianying"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_2.png">换一批</a>
+			<a href="list/dianying.html"><img src="images/more_1.png" />更多电影</a>
+			<a class="switch-button" data-list-type="dianying"><img src="images/more_2.png" />换一批</a>
 		</div>
 	</div>
 
@@ -115,31 +91,18 @@
 		<h3 class="title">综艺</h3>
 
 		<div class="items" id="zongyiList">
-			
-			<a href="https://movie.tefuir0829.cn/item.html?vid=va%2FYcclbHNz7Zc2Dz">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_04a708ddef6276cf39e3a72445a0f59a.)"><b>2021-01-08期</b></i>
-					<span>奔跑吧·黄河篇</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZcIobnNz7Zg8Ez">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_06a24f092ec985495f553f5bf34dac3d.jpg)"><b>2021-01-08期</b></i>
-					<span>明星大侦探 第六季</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZsEob6Jv7JQ3Dz">
-					<i style="background-image:url(https://p.ssl.qhimg.com/t016ac3d4c9b6a0be35.jpg)"><b>2021-01-09期</b></i>
-					<span>快乐大本营</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FasErcHNz7ZM2Ez">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_f3b1f14d5647cae45b77e34717978935.jpg)"><b>2021-01-08期</b></i>
-					<span>哈哈哈哈哈——很高兴遇到你</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FZMcoaXNz7Zg8ED">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_b7472f1228ffacea1743e692fb57098d.jpg)"><b>2021-01-09期</b></i>
-					<span>奇葩说第7季</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=va%2FY8ElaXNz7Zg3ET">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_06f3a9c2b6ef6da813b0c4dc5a5d720b.)"><b>2021-01-09期</b></i>
-					<span>我就是演员 第三季</span>
-				</a><span class="clear"></span>
+			<div class="template">
+				<a href="{{href}}">
+					<i style="background-image:url({{pic}})"><b>{{hint}}</b></i>
+					<span>{{title}}</span>
+				</a>
+			</div>
+			<span class="clear"></span>
 		</div>
 
 		<div class="more">
-			<a href="https://movie.tefuir0829.cn/list/zongyi.html"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_1.png">更多综艺</a>
-			<a class="switch-button" data-list-type="zongyi"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_2.png">换一批</a>
+			<a href="list/zongyi.html"><img src="images/more_1.png" />更多综艺</a>
+			<a class="switch-button" data-list-type="zongyi"><img src="images/more_2.png" />换一批</a>
 		</div>
 	</div>
 
@@ -150,31 +113,18 @@
 		<h3 class="title">动漫</h3>
 
 		<div class="items" id="dongmanList">
-			
-			<a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FOUPkaZ7kNY7vDj">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_695e41b4208ee7f19ee1c741bb703d3d.)"><b>更新至132集</b></i>
-					<span>斗罗大陆</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FOkXsbcKkLoO2CT">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_f07865de54f71582396a8ae31431f776.)"><b>更新至252集</b></i>
-					<span>小猪佩奇全集</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FO0Pra57mLIS2CD">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_7ed7f0fe565813882049c4fbcf775f3e.jpg)"><b>更新至3集</b></i>
-					<span>汪汪队立大功 第七季</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FPkLtap7kMICvCj">
-					<i style="background-image:url(https://p.ssl.qhimg.com/d/dy_fc7282fed5941d526340232701fe46ee.jpg)"><b>更新至157集</b></i>
-					<span>汪汪队立大功全集</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FPkPmasHbYo3uED">
-					<i style="background-image:url(https://p.ssl.qhimg.com/t010812f9b78b1b7fb8.jpg)"><b>51集全</b></i>
-					<span>戴拿奥特曼</span>
-				</a><a href="https://movie.tefuir0829.cn/item.html?vid=ct%2FQkXrcp7kLIWuCT">
-					<i style="background-image:url(https://p.ssl.qhimg.com/t01e09ca9354a9b1c4f.jpg)"><b>更新至104集</b></i>
-					<span>熊出没全集</span>
-				</a><span class="clear"></span>
+			<div class="template">
+				<a href="{{href}}">
+					<i style="background-image:url({{pic}})"><b>{{hint}}</b></i>
+					<span>{{title}}</span>
+				</a>
+			</div>
+			<span class="clear"></span>
 		</div>
 
 		<div class="more">
-			<a href="https://movie.tefuir0829.cn/list/dongman.html"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_1.png">更多动漫</a>
-			<a class="switch-button" data-list-type="dongman"><img src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/more_2.png">换一批</a>
+			<a href="list/dongman.html"><img src="images/more_1.png" />更多动漫</a>
+			<a class="switch-button" data-list-type="dongman"><img src="images/more_2.png" />换一批</a>
 		</div>
 	</div>
 
@@ -187,10 +137,10 @@
 
 </div>
 
-<a class="scroll-to-top" id="scrollToTop" style="display: none;"></a>
+<a class="scroll-to-top" id="scrollToTop"></a>
 
-<script src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/jquery_002.js"></script>
-<script src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/common.js"></script>
-<script src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/index.js"></script>
-
-</body><div id="edge-translate-notifier-container" class="edge-translate-notifier-center"></div><script type="text/javascript" src="%E6%B5%8B%E8%AF%95%E5%BD%B1%E8%A7%86%E7%BD%91_files/jquery.js"></script></html>
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
