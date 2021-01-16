@@ -1,5 +1,13 @@
 {
     "pipei": [
+ {
+            "匹配站名": "一狐",
+            "匹配网站": "http://zy.j0004j.cn",
+            "选集地址": "<a class=\"text-muted pull-right\" href=\"(.*?)\">播放 &gt;</a>[\s\S]*?<a href=\"javascript:;\" class=\"copy_text\">(.*?)<span class=\"hidden-xs\">\$(.*?)</span></a>",
+            "搜索图片": "",
+            "搜索地址": "<a href=\"(.*?)\" title=\"(.*?)\">.* <em class=\"text-red\">.*</em></a>",
+            "搜索文本": "http://zy.j0004j.cn/index.php/vod/search.html?wd={SearchWord}&submit="
+        },
         {
             "匹配站名": "九零",
             "匹配网站": "http://1090ys1.com",
