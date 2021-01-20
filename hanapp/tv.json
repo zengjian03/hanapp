@@ -54,119 +54,119 @@
             "name": "CCTV-1综合HD",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225601/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV1.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png",
             "epg": "https://www.tvsou.com/epg/yangshi/b3666b9d/"
         },
         {
             "name": "CCTV-2财经HD",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225691/index.m3u8",
             "url2": "http://125.210.152.18:9090/live/CCTV2HD_H265.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV2.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png",
             "epg": "https://www.tvsou.com/epg/yangshi/c5717c2d/"
         },
         {
             "name": "CCTV-3综艺HD",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225490/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV3.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png",
             "epg": "https://www.tvsou.com/epg/yangshi/53eda06f/"
         },
         {
             "name": "CCTV-4中文国际",
             "url": "http://223.110.241.149:6610/gitv/live1/G_CCTV-4-CQ/G_CCTV-4-CQ/1.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV4.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV4.png",
             "epg": "https://www.tvsou.com/epg/yangshi/0ccc41bf/"
         },
         {
             "name": "CCTV-5体育",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225606/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv5hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV5.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV5.png",
             "epg": "https://www.tvsou.com/epg/yangshi/6b26bee1/"
         },
         {
             "name": "CCTV5+赛事",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225590/index.m3u8",
             "url2": "http://39.134.66.66/PLTV/88888888/224/3221225590/index.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV5+.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV5+.png",
             "epg": "https://www.tvsou.com/epg/yangshi/e4e3801d/"
         },
         {
             "name": "CCTV-6电影",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225488/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV6.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV6.png",
             "epg": "https://www.tvsou.com/epg/yangshi/ddb707c0/"
         },
         {
             "name": "CCTV-7军事农业",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225671/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv7hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV7.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV7.png",
             "epg": "https://www.tvsou.com/epg/yangshi/f2d13f2a/"
         },
         {
             "name": "CCTV-8电视剧频道",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225485/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv8hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV8.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV8.png",
             "epg": "https://www.tvsou.com/epg/yangshi/13e8f054/"
         },
         {
             "name": "CCTV-9纪录频道",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225676/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv9hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV9.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV9.png",
             "epg": "https://www.tvsou.com/epg/yangshi/8f932b7b/"
         },
         {
             "name": "CCTV-10科教",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225677/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv10hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV10.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV10.png",
             "epg": "https://www.tvsou.com/epg/yangshi/7651a0a2/"
         },
         {
             "name": "CCTV-11戏曲",
             "url": "http://39.134.157.205/PLTV/88888888/224/3221225622/index.m3u8",
             "url2": "http://m.zhiboba.org/app/cctv.aspx?id=cctv11&_res_tag_=video",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV11.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV11.png",
             "epg": "https://www.tvsou.com/epg/yangshi/0a2de840/"
         },
         {
             "name": "CCTV-12社会与法",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225669/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv12hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV12.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV12.png",
             "epg": "https://www.tvsou.com/epg/yangshi/1e983148/"
         },
         {
             "name": "CCTV-13新闻",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225515/index.m3u8",
             "url2": "http://m.zhiboba.org/app/cctv.aspx?id=cctv13&_res_tag_=video",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV13.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV13.png",
             "epg": "https://www.tvsou.com/epg/yangshi/f5b1a323/"
         },
         {
             "name": "CCTV-14少儿",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225674/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv14hd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV14.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV14.png",
             "epg": "https://www.tvsou.com/epg/yangshi/6fff4f43/"
         },
         {
             "name": "CCTV-15音乐",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225513/index.m3u8",
             "url2": "http://m.zhiboba.org/app/cctv.aspx?id=cctv15&_res_tag_=video",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV15.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV15.png",
             "epg": "https://www.tvsou.com/epg/yangshi/3201ff16/"
         },
         {
             "name": "CCTV-17农业农村",
             "url": "http://39.134.66.66/PLTV/88888888/224/3221225708/index.m3u8",
             "url2": "http://m.zhiboba.org/app/cctv.aspx?id=cctv17&_res_tag_=video",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/CCTV17.png",
+            "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV17.png",
             "epg": "https://www.tvsou.com/epg/yangshi/d3d48ldf/"
         }
     ],
