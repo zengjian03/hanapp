@@ -2509,7 +2509,7 @@
             "name": "黑龙江卫视高清",
             "url": "http://112.17.40.140/PLTV/88888888/224/3221226201/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/hljhd.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/黑龙江卫.png",
+            "img": "http://zengjian0303.gitee.io/han/hanapp/img/黑龙江卫视.png",
             "epg": "https://www.tvsou.com/epg/weishi/59736a35/"
         },
         {
@@ -2684,7 +2684,7 @@
             "name": "福建东南卫视",
             "url": "http://ivi.bupt.edu.cn/hls/dntv.m3u8http://112.17.40.140/PLTV/88888888/224/3221226134/index.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/dntv.m3u8",
-            "img": "http://zengjian0303.gitee.io/han/hanapp/img/福建东南卫视.png",
+            "img": "http://zengjian0303.gitee.io/han/hanapp/img/东南卫视.png",
             "epg": "https://www.tvsou.com/epg/weishi/epg/weishi/da0c3f96/"
         },
         {
