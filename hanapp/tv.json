@@ -52,21 +52,21 @@
     "CCTV": [
         {
             "name": "CCTV-1综合HD",
-            "url": "http://39.134.66.66/PLTV/88888888/224/3221225601/index.m3u8",
+            "url": ",http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226226/1.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8",
             "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png",
             "epg": "https://www.tvsou.com/epg/yangshi/b3666b9d/"
         },
         {
             "name": "CCTV-2财经HD",
-            "url": "http://39.134.66.66/PLTV/88888888/224/3221225691/index.m3u8",
+            "url": "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226230/1.m3u8",
             "url2": "http://125.210.152.18:9090/live/CCTV2HD_H265.m3u8",
             "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV2.png",
             "epg": "https://www.tvsou.com/epg/yangshi/c5717c2d/"
         },
         {
             "name": "CCTV-3综艺HD",
-            "url": "http://39.134.66.66/PLTV/88888888/224/3221225490/index.m3u8",
+            "url": "http://223.110.241.130:6610/gitv/live1/G_CCTV-3-HQ/.m3u8",
             "url2": "http://ivi.bupt.edu.cn/hls/cctv3hd.m3u8",
             "img": "http://epg.51zmt.top:8000/tb1/CCTV/CCTV3.png",
             "epg": "https://www.tvsou.com/epg/yangshi/53eda06f/"
